@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hardback"
+    tools:context=".OnePlayerLevel_3_Activity">
+
+    <ImageView
+        android:id="@+id/img_33"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/img_34"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_32"
+        app:layout_constraintTop_toBottomOf="@+id/img_27"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_34"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/img_35"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_33"
+        app:layout_constraintTop_toBottomOf="@+id/img_28"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_35"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/img_36"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_34"
+        app:layout_constraintTop_toBottomOf="@+id/img_29"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_36"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_35"
+        app:layout_constraintTop_toBottomOf="@+id/img_30"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_32"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/img_33"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_31"
+        app:layout_constraintTop_toBottomOf="@+id/img_26"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_26"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_32"
+        app:layout_constraintEnd_toStartOf="@+id/img_27"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_25"
+        app:layout_constraintTop_toBottomOf="@+id/img_20"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_27"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_33"
+        app:layout_constraintEnd_toStartOf="@+id/img_28"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_26"
+        app:layout_constraintTop_toBottomOf="@+id/img_21"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_23"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_29"
+        app:layout_constraintEnd_toStartOf="@+id/img_24"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_22"
+        app:layout_constraintTop_toBottomOf="@+id/img_17"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_24"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_23"
+        app:layout_constraintTop_toBottomOf="@+id/img_18"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_22"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_28"
+        app:layout_constraintEnd_toStartOf="@+id/img_23"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_21"
+        app:layout_constraintTop_toBottomOf="@+id/img_16"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_21"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_27"
+        app:layout_constraintEnd_toStartOf="@+id/img_22"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_20"
+        app:layout_constraintTop_toBottomOf="@+id/img_15"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_20"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_26"
+        app:layout_constraintEnd_toStartOf="@+id/img_21"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_19"
+        app:layout_constraintTop_toBottomOf="@+id/img_14"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_13"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_19"
+        app:layout_constraintEnd_toStartOf="@+id/img_14"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_7"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_14"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_20"
+        app:layout_constraintEnd_toStartOf="@+id/img_15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_13"
+        app:layout_constraintTop_toBottomOf="@+id/img_8"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_15"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_21"
+        app:layout_constraintEnd_toStartOf="@+id/img_16"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_14"
+        app:layout_constraintTop_toBottomOf="@+id/img_9"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_16"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_22"
+        app:layout_constraintEnd_toStartOf="@+id/img_17"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_15"
+        app:layout_constraintTop_toBottomOf="@+id/img_10"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_17"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_23"
+        app:layout_constraintEnd_toStartOf="@+id/img_18"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_16"
+        app:layout_constraintTop_toBottomOf="@+id/img_11"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_18"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_17"
+        app:layout_constraintTop_toBottomOf="@+id/img_12"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_12"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_11"
+        app:layout_constraintTop_toBottomOf="@+id/img_6"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_10"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_16"
+        app:layout_constraintEnd_toStartOf="@+id/img_11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_9"
+        app:layout_constraintTop_toBottomOf="@+id/img_4"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_11"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_17"
+        app:layout_constraintEnd_toStartOf="@+id/img_12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_10"
+        app:layout_constraintTop_toBottomOf="@+id/img_5"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_9"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_15"
+        app:layout_constraintEnd_toStartOf="@+id/img_10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_8"
+        app:layout_constraintTop_toBottomOf="@+id/img_3"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="128dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@+id/img_4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_7"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_13"
+        app:layout_constraintEnd_toStartOf="@+id/img_8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_1"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_6"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="128dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="128dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@+id/img_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_4"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="128dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@+id/img_5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_5"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="128dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@+id/img_6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="128dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@+id/img_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_8"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_14"
+        app:layout_constraintEnd_toStartOf="@+id/img_9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_7"
+        app:layout_constraintTop_toBottomOf="@+id/img_2"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_19"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_25"
+        app:layout_constraintEnd_toStartOf="@+id/img_20"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_13"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_25"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_31"
+        app:layout_constraintEnd_toStartOf="@+id/img_26"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_19"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_28"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_34"
+        app:layout_constraintEnd_toStartOf="@+id/img_29"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_27"
+        app:layout_constraintTop_toBottomOf="@+id/img_22"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_29"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_35"
+        app:layout_constraintEnd_toStartOf="@+id/img_30"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_28"
+        app:layout_constraintTop_toBottomOf="@+id/img_23"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_30"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/img_36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_29"
+        app:layout_constraintTop_toBottomOf="@+id/img_24"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <ImageView
+        android:id="@+id/img_31"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/img_32"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_25"
+        app:srcCompat="@drawable/arkafoto" />
+
+    <TextView
+        android:id="@+id/scoretext_hard1_pl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/suretext_hard1"
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <TextView
+        android:id="@+id/suretext_hard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="92dp"
+        android:text="Süre:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+</androidx.constraintlayout.widget.ConstraintLayout>

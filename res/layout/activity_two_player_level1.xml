@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sariarkakoyu"
+    tools:context=".TwoPlayerLevel_1_Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:context=".TwoPlayerLevel_1_Activity">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgview_2"
+            android:layout_width="112dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginEnd="56dp"
+            app:layout_constraintBottom_toTopOf="@+id/imgview_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imgview_1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.036"
+            app:srcCompat="@drawable/arkafoto"
+            app:strokeColor="@color/black"
+            app:strokeWidth="5dp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgview_3"
+            android:layout_width="112dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="212dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imgview_4"
+            app:layout_constraintHorizontal_bias="0.519"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/arkafoto"
+            app:strokeColor="@color/black"
+            app:strokeWidth="5dp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgview_4"
+            android:layout_width="112dp"
+            android:layout_height="140dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="212dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/arkafoto"
+            app:strokeColor="@color/black"
+            app:strokeWidth="5dp" />
+
+        <TextView
+            android:id="@+id/textview_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.109" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgview_1"
+            android:layout_width="112dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="184dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/arkafoto"
+            app:strokeColor="@color/black"
+            app:strokeWidth="5dp" />
+
+        <TextView
+            android:id="@+id/cardtext1"
+            android:layout_width="76dp"
+            android:layout_height="25sp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/cardtext2"
+            app:layout_constraintHorizontal_bias="0.44"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="607dp" />
+
+        <TextView
+            android:id="@+id/cardtext2"
+            android:layout_width="81dp"
+            android:layout_height="25sp"
+            android:layout_marginEnd="68dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="607dp" />
+
+        <TextView
+            android:id="@+id/cardtext3"
+            android:layout_width="73dp"
+            android:layout_height="25sp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/cardtext4"
+            app:layout_constraintHorizontal_bias="0.445"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="678dp" />
+
+        <TextView
+            android:id="@+id/cardtext4"
+            android:layout_width="79dp"
+            android:layout_height="25sp"
+            android:layout_marginEnd="68dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="678dp" />
+
+        <TextView
+            android:id="@+id/scoretext_player1"
+            android:layout_width="134dp"
+            android:layout_height="35dp"
+            android:text="İlk Oyuncu:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textview_time"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.11" />
+
+        <TextView
+            android:id="@+id/scoretext_player2"
+            android:layout_width="128dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="16dp"
+            android:text="2.Oyuncu:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textview_time"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.11" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
